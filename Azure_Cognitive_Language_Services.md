@@ -72,10 +72,37 @@
 
 1. **Intro**
    
+   Text Analytics provides advanced natural language processing (NLP) over raw text.
+   It allows us to extract information from text which can be used to:
+      - identify language
+      - discover sentiment
+      - extract key phrases
+      - detect well-known entities from text
 2. **Use cases**
-   
+   * Automatic customer native language detection.
+   * Sentiment analytics for a product based on reviews.
 3. **How to**
    * How to use this service?
-   * [Pricing]() - EU West
+      1. Create Text Analytics resource
+      2. Get the access key
+      3. Make REST API calls [(EU West documentation)](https://westcentralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)
+   * [Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/) - EU West
    ```
+   Free     - 5000 transactions / month
+   Standard - 0-500,000 text records — $2 per 1,000 text records 
+              0.5M-2.5M text records — $1 per 1,000 text records
+              2.5M-10.0M text records — $0.50 per 1,000 text records
+              10M+ text records — $0.25 per 1,000 text records 
+   S0       - $74.71/month Up to 25,000 transactions per month
+              Overage: $3 per 1,000 transactions 
+   S1       - $249.86/month Up to 100,000 transactions per month
+              Overage: $2.50 per 1,000 transactions 
+   S2       - $999.75/month Up to 500,000 transactions per month
+              Overage: $2 per 1,000 transactions 
+   S3       - $2,499.84/month Up to 2,500,000 transactions per month 
+              Overage: $1 per 1,000 transactions 
+   S4       - $4,999.99/month Up to 10,000,000 transactions per month 
+              Overage: $0.50 per 1,000 transactions 
+   Named Entity Recognition is not available in Container
+   Text Records correspond to the number of 1,000-character units within a document that is provided as input to a Text Analytics API request.
    ```
