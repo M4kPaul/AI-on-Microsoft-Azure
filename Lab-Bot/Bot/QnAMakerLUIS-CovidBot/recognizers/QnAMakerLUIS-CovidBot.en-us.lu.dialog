@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_QnAMakerLUIS-CovidBot",
+  "applicationId": "=settings.luis.QnAMakerLUIS_CovidBot_en_us_lu.appId",
+  "version": "=settings.luis.QnAMakerLUIS_CovidBot_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}
