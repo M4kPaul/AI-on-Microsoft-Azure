@@ -5,6 +5,12 @@
 │   README.md
 │
 └───Lab-Bot
+    ├───Bot
+    │   │   Bot_Raport.md
+    │   │
+    │   └───QnAMakerLUIS-CovidBot
+    │       └───...
+    │
     └───Services-Cheatsheets
             Azure_Bot_Service.md
             Azure_Cognitive_Language_Services.md
